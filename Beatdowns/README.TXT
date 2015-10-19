@@ -4,9 +4,17 @@ Tell the reader (someone who does not know anything about this project)
 all he/she needs to know. The comments should usually include at least:
 ------------------------------------------------------------------------
 
-PROJECT TITLE:
-PURPOSE OF PROJECT:
-VERSION or DATE:
-HOW TO START THIS PROJECT:
-AUTHORS:
-USER INSTRUCTIONS:
+ -BeatDown- version 0.1 (10/19/15)
+beatdown is a top down fighting game ment to teach the basic movement and fighting control implication 
+	
+
+HOW TO START THIS PROJECT: run through bluej
+AUTHORS: Clancy Fisher 
+
+USER INSTRUCTIONS: 
+
+'w'- up
+'s'- down
+'a'- left
+'d'- right
+' '- punch 
