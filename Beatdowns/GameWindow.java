@@ -17,7 +17,7 @@ public class GameWindow extends JPanel implements ActionListener, KeyListener
     public GameWindow()
     {
         setPreferredSize(new Dimension(800,600));
-        setBackground(Color.GREEN);
+        setBackground(Color.WHITE);
         
         JFrame frame = new JFrame("a frame");
         frame.add(this);
@@ -60,6 +60,7 @@ public class GameWindow extends JPanel implements ActionListener, KeyListener
             dx += 1;
         }
         System.out.println(facing);
+        
     }
     
     public void draw(Graphics gc)
@@ -70,22 +71,22 @@ public class GameWindow extends JPanel implements ActionListener, KeyListener
         
         
        
-        if (facing == 0)
+        if (punch && facing == 0)
         {
             gc.fillRect(dx+ 3,dy - 2,5,5);
         }
         
-        if (facing == 3)
+        if (punch && facing == 3)
         {
             gc.fillRect(dx- 2,dy + 3,5,5);
         }
         
-        if (facing == 2)
+        if (punch && facing == 2)
         {
             gc.fillRect(dx+ 3,dy + 8,5,5); 
         }
         
-        if (facing == 1)
+        if (punch && facing == 1)
         {   
            gc.fillRect(dx+ 8,dy + 3,5,5);
         }
